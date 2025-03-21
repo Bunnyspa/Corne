@@ -2809,7 +2809,7 @@
 			)
 		)
 	)
-	(global_label "reset"
+	(global_label "RST"
 		(shape input)
 		(at 58.42 123.19 0)
 		(fields_autoplaced yes)
@@ -2821,7 +2821,7 @@
 		)
 		(uuid "0509b863-da23-47c8-9541-8ec753b72bd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.1224 123.19 0)
+			(at 64.8523 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			)
 		)
 	)
-	(global_label "raw"
+	(global_label "RAW"
 		(shape input)
 		(at 71.12 49.53 0)
 		(fields_autoplaced yes)
@@ -2865,7 +2865,7 @@
 		)
 		(uuid "0d8cbb28-11b6-4338-8316-0a1dbba43a79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.3709 49.53 0)
+			(at 77.9152 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3205,7 @@
 			)
 		)
 	)
-	(global_label "raw"
+	(global_label "RAW"
 		(shape input)
 		(at 48.26 106.68 180)
 		(fields_autoplaced yes)
@@ -3217,7 +3217,7 @@
 		)
 		(uuid "51fff568-b6f6-400e-868c-a6a378a8b99e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0091 106.68 0)
+			(at 41.4648 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,6 +3535,28 @@
 			)
 		)
 	)
+	(global_label "CS"
+		(shape input)
+		(at 45.72 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6a2aeb7-1ac0-47ad-90b8-96d1487d0cfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.2553 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "jump3"
 		(shape input)
 		(at 118.11 135.89 270)
@@ -3601,29 +3623,7 @@
 			)
 		)
 	)
-	(global_label "CS"
-		(shape input)
-		(at 71.12 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6bccdab-e9c5-4ce2-8628-2e046b6a3149")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.5847 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "reset"
+	(global_label "RST"
 		(shape input)
 		(at 71.12 54.61 0)
 		(fields_autoplaced yes)
@@ -3635,7 +3635,7 @@
 		)
 		(uuid "c7f92d05-1f8c-44e4-9fb3-f441fc47fac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.8224 54.61 0)
+			(at 77.5523 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+		(property "Footprint" "Project:SW_SPDT_PCM12"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
 			(at 53.34 118.11 0)
 			(effects
 				(font
