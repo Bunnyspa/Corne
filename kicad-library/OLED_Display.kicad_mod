@@ -190,6 +190,56 @@
 	)
 	(fp_line
 		(start -5.59 -1.8)
+		(end 5.61 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "1612184d-f5c4-4ab9-bf60-371a735da336")
+	)
+	(fp_line
+		(start -5.59 -1.8)
+		(end 5.61 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "d046c8ea-883c-4f1f-b895-cacafca5c811")
+	)
+	(fp_line
+		(start -5.59 1.8)
+		(end -5.59 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "0be09ca7-39d1-4d2a-9a60-9b2796349547")
+	)
+	(fp_line
+		(start 5.61 -1.8)
+		(end 5.61 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "d4af19f5-8bc0-4c3b-b48d-d2fc5e668cd3")
+	)
+	(fp_line
+		(start 5.61 1.8)
+		(end -5.59 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "17e63e40-e1ed-45d6-b913-9858170a3876")
+	)
+	(fp_line
+		(start -5.59 -1.8)
 		(end -5.59 1.8)
 		(stroke
 			(width 0.05)
@@ -435,7 +485,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole oval
 		(at 3.81 0 270)
 		(size 1.7 1.7)
 		(drill 1)
