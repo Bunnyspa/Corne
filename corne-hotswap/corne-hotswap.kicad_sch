@@ -8628,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
+		(property "Footprint" ""
 			(at 53.34 118.11 0)
 			(effects
 				(font
