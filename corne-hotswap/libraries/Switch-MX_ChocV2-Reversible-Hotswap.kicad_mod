@@ -419,8 +419,8 @@
 		(uuid "24ceebec-a34b-4970-ac04-f6fce1f05e4f")
 	)
 	(fp_rect
-		(start -9.525 -9.525)
-		(end 9.525 9.525)
+		(start -9.5 -9.5)
+		(end 9.5 9.5)
 		(stroke
 			(width 0.1)
 			(type default)

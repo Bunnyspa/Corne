@@ -7,6 +7,7 @@
 		(at 0 16.51 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "6c41a02e-41dd-4c49-9dd6-cc5332af3f37")
 		(effects
 			(font
@@ -546,6 +547,28 @@
 		)
 		(layer "B.Cu")
 		(uuid "8b53404a-687d-469f-aa3b-e4a855d1756c")
+	)
+	(fp_rect
+		(start -8.89 -17.78)
+		(end 8.89 15.24)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "634edebd-bcb8-4ff5-9045-3dfab91e1751")
+	)
+	(fp_rect
+		(start -3.55 -19.3)
+		(end 3.55 -14.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "bbb5bdfe-4119-4ee9-8857-f05815a23dce")
 	)
 	(fp_rect
 		(start -8.89 -17.78)

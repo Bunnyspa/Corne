@@ -7,6 +7,7 @@
 		(at 0 -2.54 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "c63db3bf-3d1e-4300-9329-ac82edc8d6a3")
 		(effects
 			(font
@@ -67,6 +68,66 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -5.14 -1.33)
+		(end -5.14 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "65c3c198-52c0-4594-bb6a-d60b59d6fa40")
+	)
+	(fp_line
+		(start -3.81 -1.33)
+		(end -5.14 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "37028f78-a125-4b0b-ba37-906e37c95748")
+	)
+	(fp_line
+		(start -2.54 -1.33)
+		(end -2.54 1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "8d8f1d95-a1f8-4455-a4b6-54795e5ac841")
+	)
+	(fp_line
+		(start -2.54 -1.33)
+		(end 5.14 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "48ea02b6-e629-4c3e-a97f-c3a00ca90916")
+	)
+	(fp_line
+		(start -2.54 1.33)
+		(end 5.14 1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "c0a1493f-aeee-4f16-a464-6e0ff299c03c")
+	)
+	(fp_line
+		(start 5.14 -1.33)
+		(end 5.14 1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "4e683e06-0042-4ead-aea2-a8234776daae")
+	)
 	(fp_line
 		(start -5.14 -1.33)
 		(end -5.14 1.33)
@@ -238,6 +299,71 @@
 		(layer "F.Fab")
 		(uuid "85e2153c-e868-4243-a8e2-4b77750aa69d")
 	)
+	(fp_text user "3V3"
+		(at -1.27 2.54 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c57eef10-a4e6-4399-ae48-f5b6ca28c629")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "SDA"
+		(at 3.81 2.54 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "d4d7fa48-2170-4f96-9afa-271ceeb94c4a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "SCL"
+		(at 1.27 2.54 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "d9f68bfd-d550-4d59-9a4d-b21e2c0aeb29")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "OLED Display"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "eb30541f-f2c3-4dc4-bd10-c212ed1d2f8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at -3.81 2.54 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f7b173b3-5e64-4e0c-b205-2328b2aa3cf9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "GND"
 		(at 3.81 2.54 0)
 		(unlocked yes)
@@ -270,6 +396,18 @@
 		(effects
 			(font
 				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OLED Display"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c3c2fa24-ae7b-4d05-ba78-00ff2ee92067")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
