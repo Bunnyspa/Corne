@@ -3915,7 +3915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 191.77 111.76 0)
 			(effects
 				(font
@@ -3985,7 +3985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 232.41 102.87 0)
 			(effects
 				(font
@@ -4071,7 +4071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 245.11 129.54 0)
 			(effects
 				(font
@@ -4132,7 +4132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery"
+		(property "Value" "Battery Connector"
 			(at 73.66 106.6799 0)
 			(effects
 				(font
@@ -4141,7 +4141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -4209,7 +4209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -4347,7 +4347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 214.63 120.65 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 250.19 156.21 0)
 			(effects
 				(font
@@ -4523,7 +4523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 196.85 120.65 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 227.33 129.54 0)
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -4987,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:OLED_Display"
 			(at 128.27 130.81 0)
 			(effects
 				(font
@@ -5061,7 +5061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 262.89 147.32 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -5219,7 +5219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -5307,7 +5307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 196.85 102.87 0)
 			(effects
 				(font
@@ -5393,7 +5393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 191.77 93.98 0)
 			(effects
 				(font
@@ -5461,7 +5461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 191.77 129.54 0)
 			(effects
 				(font
@@ -5529,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 173.99 93.98 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 267.97 102.87 0)
 			(effects
 				(font
@@ -5685,7 +5685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 173.99 129.54 0)
 			(effects
 				(font
@@ -5820,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 262.89 93.98 0)
 			(effects
 				(font
@@ -5890,7 +5890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 267.97 138.43 0)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 111.76 167.64 0)
 			(effects
 				(font
@@ -6044,7 +6044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 227.33 111.76 0)
 			(effects
 				(font
@@ -6112,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 245.11 93.98 0)
 			(effects
 				(font
@@ -6180,7 +6180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 177.8 0)
 			(effects
 				(font
@@ -6315,7 +6315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 111.76 177.8 0)
 			(effects
 				(font
@@ -6383,7 +6383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Nice_View"
 			(at 113.03 130.81 0)
 			(effects
 				(font
@@ -6460,7 +6460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6528,7 +6528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 209.55 111.76 0)
 			(effects
 				(font
@@ -6596,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -6667,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 167.64 0)
 			(effects
 				(font
@@ -6737,7 +6737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -6957,7 +6957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 267.97 156.21 0)
 			(effects
 				(font
@@ -7043,7 +7043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 173.99 111.76 0)
 			(effects
 				(font
@@ -7111,7 +7111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -7179,7 +7179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 111.76 182.88 0)
 			(effects
 				(font
@@ -7247,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -7317,7 +7317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 232.41 120.65 0)
 			(effects
 				(font
@@ -7405,7 +7405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 250.19 138.43 0)
 			(effects
 				(font
@@ -7491,7 +7491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 209.55 129.54 0)
 			(effects
 				(font
@@ -7561,7 +7561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 232.41 156.21 0)
 			(effects
 				(font
@@ -7647,7 +7647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 182.88 0)
 			(effects
 				(font
@@ -7715,7 +7715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:ProMicro_USBup"
+		(property "Footprint" "Project:Pro_Micro-Reversible"
 			(at 58.42 93.98 0)
 			(effects
 				(font
@@ -7916,7 +7916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 209.55 93.98 0)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 245.11 147.32 0)
 			(effects
 				(font
@@ -8054,7 +8054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 267.97 120.65 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 227.33 93.98 0)
 			(effects
 				(font
@@ -8210,7 +8210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 196.85 138.43 0)
 			(effects
 				(font
@@ -8296,7 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 111.76 172.72 0)
 			(effects
 				(font
@@ -8366,7 +8366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 250.19 102.87 0)
 			(effects
 				(font
@@ -8454,7 +8454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 250.19 120.65 0)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Diode-Reversible"
 			(at 232.41 138.43 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project:Switch-MX_ChocV2-Reversible-Hotswap"
 			(at 53.34 118.11 0)
 			(effects
 				(font
