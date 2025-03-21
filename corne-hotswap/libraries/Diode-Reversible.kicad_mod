@@ -1,0 +1,239 @@
+(footprint "Diode-Reversible"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5652c1b4-c53e-4702-aaba-78dc85fb359e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Diode-Reversible"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "460c9640-f295-4f40-8cd7-0f980ab99dbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c28828be-2d02-4995-b7c9-8b1ede09a054")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7fd82bc-a8f5-40b6-8dd3-673c1c429063")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "082e9a16-936b-4b40-a452-4f47896ec238")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.5 -0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ae3a83d-c3f6-4640-b8a0-e111dd93f831")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c23fd64d-27cb-4a2f-a09d-15156d7de2b6")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fdb8c158-43b9-41e3-a4a1-3cdb317c6848")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "214d693d-546e-4cc7-ab8d-620e638fd989")
+	)
+	(fp_rect
+		(start -4.86 -1.25)
+		(end 4.86 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0b2a3446-3cea-41f0-8da8-f404f5a8b8f1")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "44edd9b1-a3ed-47f4-b824-903b99f83cf8")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a62ede02-d3f3-4ae8-9550-d1aa60af4360")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1868c415-a09d-4214-a186-9d3ca2f55f3c")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "eab073d0-9fb5-4d67-a97f-464fe2297226")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0fe6bfcd-77b7-4842-b8d3-9fd49fdf20ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe0921e4-fe07-48c8-a448-ab3702c117a6")
+	)
+	(pad "1" smd rect
+		(at -2.8 0)
+		(size 1 1.2)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(uuid "4a508648-6f47-4ea3-86a1-5e7983a1f7eb")
+	)
+	(pad "1" smd roundrect
+		(at -1.725 0)
+		(size 1.75 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9b58b1d0-2a4a-420d-ab19-1e30d17ed0d6")
+	)
+	(pad "2" smd roundrect
+		(at 1.725 0)
+		(size 1.75 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ed12081d-1569-48ea-87fb-895d5407f9d1")
+	)
+	(pad "2" smd rect
+		(at 2.8 0)
+		(size 1 1.2)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(uuid "253c26a7-636a-4577-b0b6-8abe9df04232")
+	)
+	(pad "2" thru_hole oval
+		(at 3.81 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe32b66e-707e-46ca-9ed0-5aeb96c730a3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
+		(offset
+			(xyz -3.81 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

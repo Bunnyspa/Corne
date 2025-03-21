@@ -1,4 +1,4 @@
-(footprint "ProMicro_reversible"
+(footprint "Pro_Micro-Reversible"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ProMicro_reversible"
+	(property "Value" "Pro_Micro-Reversible"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
