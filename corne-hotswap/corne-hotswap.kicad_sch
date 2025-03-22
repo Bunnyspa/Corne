@@ -3088,7 +3088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 232.41 102.87 0)
 			(effects
 				(font
@@ -3450,7 +3450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 214.63 120.65 0)
 			(effects
 				(font
@@ -3538,7 +3538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 250.19 156.21 0)
 			(effects
 				(font
@@ -3693,7 +3693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -3848,7 +3848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 196.85 120.65 0)
 			(effects
 				(font
@@ -4004,7 +4004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -4403,7 +4403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 196.85 102.87 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 267.97 102.87 0)
 			(effects
 				(font
@@ -4986,7 +4986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 267.97 138.43 0)
 			(effects
 				(font
@@ -5560,7 +5560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -5648,7 +5648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 267.97 156.21 0)
 			(effects
 				(font
@@ -5940,7 +5940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 232.41 120.65 0)
 			(effects
 				(font
@@ -6028,7 +6028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 250.19 138.43 0)
 			(effects
 				(font
@@ -6184,7 +6184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 232.41 156.21 0)
 			(effects
 				(font
@@ -6542,7 +6542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 267.97 120.65 0)
 			(effects
 				(font
@@ -6698,7 +6698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 196.85 138.43 0)
 			(effects
 				(font
@@ -6786,7 +6786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 250.19 102.87 0)
 			(effects
 				(font
@@ -6874,7 +6874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 250.19 120.65 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:D_SOD-123F-Reversible"
+		(property "Footprint" "Project:D_SOD-123F-Reversible-Hotswap"
 			(at 232.41 138.43 0)
 			(effects
 				(font
