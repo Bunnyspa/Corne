@@ -140,7 +140,7 @@
 	)
 	(fp_rect
 		(start 1.75 -0.5)
-		(end 4.6 0.55)
+		(end 4.6 0.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -220,7 +220,7 @@
 		(uuid "fdeec883-59aa-4afa-80cc-548607b905b4")
 	)
 	(fp_rect
-		(start 1.75 -0.55)
+		(start 1.75 -0.5)
 		(end 4.6 0.5)
 		(stroke
 			(width 0.12)
