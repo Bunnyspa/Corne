@@ -1,4 +1,4 @@
-(footprint "D_SOD-123F-Reversible"
+(footprint "D_SOD-123F-Reversible-Solder"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "D_SOD-123F-Reversible"
+	(property "Value" "D_SOD-123F-Reversible-Solder"
 		(at 0 2.1 0)
 		(layer "F.Fab")
 		(uuid "4cf7c109-d589-42b3-9204-a2275fe68dd1")
