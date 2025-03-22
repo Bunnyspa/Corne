@@ -1764,8 +1764,16 @@
 		(uuid "ff345bb9-a28d-4b05-88fb-9819c1d9b8cd")
 	)
 	(no_connect
+		(at 45.72 74.93)
+		(uuid "147086b3-1513-48ad-a46d-793da5fd4872")
+	)
+	(no_connect
 		(at 45.72 52.07)
 		(uuid "36d9489d-17c2-4e26-91d2-b85562703b20")
+	)
+	(no_connect
+		(at 71.12 77.47)
+		(uuid "40d725fc-f614-42dc-920c-6893b57edaff")
 	)
 	(no_connect
 		(at 45.72 49.53)
@@ -1774,6 +1782,10 @@
 	(no_connect
 		(at 48.26 101.6)
 		(uuid "b9f6cd86-68a4-4182-ad0f-3546ddabd319")
+	)
+	(no_connect
+		(at 71.12 74.93)
+		(uuid "c5c4af81-18ad-4a47-a40b-7cc51f3fac72")
 	)
 	(wire
 		(pts
@@ -1794,6 +1806,16 @@
 			(type default)
 		)
 		(uuid "0804e494-1a7f-4ee4-8e5a-59707cf423e0")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09da52c7-4ec7-4e6b-9186-343760bdd10a")
 	)
 	(wire
 		(pts
@@ -1964,16 +1986,6 @@
 			(type default)
 		)
 		(uuid "811b560d-27c5-455e-97ed-f343b53653a3")
-	)
-	(wire
-		(pts
-			(xy 58.42 104.14) (xy 66.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b87013c-5887-4178-9fa7-a7f7842b6499")
 	)
 	(wire
 		(pts
@@ -3218,7 +3230,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 71.12 104.14 0)
+		(at 71.12 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3227,7 +3239,7 @@
 		(fields_autoplaced yes)
 		(uuid "12e3ad74-4e07-4fcc-8083-8c231d2adc92")
 		(property "Reference" "J1"
-			(at 73.66 104.1399 0)
+			(at 73.66 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3248,7 @@
 			)
 		)
 		(property "Value" "Battery Connector"
-			(at 73.66 106.6799 0)
+			(at 73.66 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3257,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 71.12 104.14 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 104.14 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3275,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 104.14 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,73 +3760,6 @@
 			(project "corne-hotswap"
 				(path "/a84e1b1a-6de0-41da-b249-d0af4d1e6311"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "360a1c28-c1d5-4ce0-93a7-f25c7ac30e0d")
-		(property "Reference" "#PWR02"
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "532ff561-eba5-45ed-ad23-b9b567fb1804")
-		)
-		(instances
-			(project "corne-hotswap"
-				(path "/a84e1b1a-6de0-41da-b249-d0af4d1e6311"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5311,6 +5256,73 @@
 			(project "corne-hotswap"
 				(path "/a84e1b1a-6de0-41da-b249-d0af4d1e6311"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851abcc9-b40e-448f-8775-0f974a1a8cfc")
+		(property "Reference" "#PWR02"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31987cd5-80a5-4aee-b598-f4942d3efe43")
+		)
+		(instances
+			(project "corne-solder"
+				(path "/a84e1b1a-6de0-41da-b249-d0af4d1e6311"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
