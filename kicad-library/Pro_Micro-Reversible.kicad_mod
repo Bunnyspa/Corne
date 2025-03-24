@@ -295,6 +295,20 @@
 			(justify mirror)
 		)
 	)
+	(fp_text user "RX"
+		(at 3.81 -11.43 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "9fc15b79-1153-4061-965e-1e3523235c80")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "RAW"
 		(at -3.81 -13.97 0)
 		(unlocked yes)
@@ -381,6 +395,19 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "36044aab-a6bc-4453-bcc5-f6ef3cef81de")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "RX"
+		(at -3.81 -11.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "566799b9-ed70-4614-b9fd-6e03445301af")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -476,6 +503,48 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "2" smd custom
+		(at -5.72 -11.43 180)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.505 0) (xy 1.105 0.9) (xy -0.145 0.9) (xy -0.145 -0.9) (xy 1.105 -0.9)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e707af42-6f53-4dc9-8ff8-8fc3b6aaf243")
+	)
+	(pad "2" smd custom
+		(at 5.72 -11.43 180)
+		(size 0.254 0.254)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.505 0) (xy -1.105 0.9) (xy 0.145 0.9) (xy 0.145 -0.9) (xy -1.105 -0.9)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "35d6fb75-1474-4a29-9e1b-8c47fc488e97")
 	)
 	(pad "3" smd custom
 		(at -5.715 -8.89 180)
