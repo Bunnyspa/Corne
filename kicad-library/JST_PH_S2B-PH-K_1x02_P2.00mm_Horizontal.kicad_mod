@@ -729,7 +729,7 @@
 		(uuid "d4bf6ec8-8c81-47a1-9fd1-73bbfd5f0724")
 	)
 	(fp_text user "+"
-		(at 2 -2.5 0)
+		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "4072f6c9-2b7a-4c7f-80da-88c63331f50d")
@@ -742,7 +742,7 @@
 		)
 	)
 	(fp_text user "-"
-		(at 0 -2.5 0)
+		(at 2 -2.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "e84557fa-c8d1-4a2e-bed5-4e29152be767")
@@ -755,7 +755,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at 0 -2.5 0)
+		(at 2 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5f653af2-4b2f-45e0-b2be-dd2ec8aab4e8")
@@ -767,7 +767,7 @@
 		)
 	)
 	(fp_text user "-"
-		(at 2 -2.5 0)
+		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "bc3acb7c-75a7-40d4-88f4-f715cd80147f")
