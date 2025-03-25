@@ -20019,6 +20019,138 @@
 		(layer "Edge.Cuts")
 		(uuid "fe5ac728-77d0-439a-84c6-d094e6220a90")
 	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "6111dd99-70ed-4372-bf9c-dc89f861bb9d")
+		(pts
+			(xy 41 41) (xy 174.75 41)
+		)
+		(height -13.78)
+		(gr_text "133.7500 mm"
+			(at 107.875 26.07 0)
+			(layer "Edge.Cuts")
+			(uuid "6111dd99-70ed-4372-bf9c-dc89f861bb9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "6f0dd8b6-9706-429d-9312-7d13ef430aab")
+		(pts
+			(xy 41 97) (xy 97 97)
+		)
+		(height 13.969999)
+		(gr_text "56.0000 mm"
+			(at 69 109.819999 0)
+			(layer "Edge.Cuts")
+			(uuid "6f0dd8b6-9706-429d-9312-7d13ef430aab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "b097ec22-ff17-4faf-bc24-e93c23ec81cd")
+		(pts
+			(xy 41 41) (xy 41 97)
+		)
+		(height 9.549999)
+		(gr_text "56.0000 mm"
+			(at 30.300001 69 90)
+			(layer "Edge.Cuts")
+			(uuid "b097ec22-ff17-4faf-bc24-e93c23ec81cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "b90a089c-fd93-4627-84d4-f41761bb1944")
+		(pts
+			(xy 154 41) (xy 174.75 41)
+		)
+		(height -8.005)
+		(gr_text "20.7500 mm"
+			(at 164.375 31.845 0)
+			(layer "Edge.Cuts")
+			(uuid "b90a089c-fd93-4627-84d4-f41761bb1944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 153.5 57.815)
 		(end 157.005 61.32)
