@@ -21,4 +21,4 @@ The bottom half MCU board pinouts do not support reverse configuration (hence no
 - Power switch at the north side
 
 ## Preview
-![Solder version preview](https://github.com/Bunnyspa/Corne/blob/main/corne-solder/preview/corne-solder.jpg?raw=true)
+![Solder version preview](https://github.com/Bunnyspa/Corne/blob/main/resources/3d-corne-solder.jpg?raw=true)
