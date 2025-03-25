@@ -89,16 +89,6 @@
 		(uuid "fa3e8f9d-3bef-45f4-b133-44da132671d8")
 	)
 	(fp_line
-		(start 0.15 1.39)
-		(end -0.85 1.39)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "5ee003f7-c929-4ad5-b57e-0d8eae80264a")
-	)
-	(fp_line
 		(start 0.15 1.85)
 		(end 0.15 1.39)
 		(stroke
@@ -158,16 +148,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "cdd1892f-39ee-4cd7-8b21-75e66ede3f0f")
-	)
-	(fp_line
-		(start 0.15 -1.39)
-		(end -0.85 -1.39)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "60d17040-417c-4b8c-a072-fbae51ec8f31")
 	)
 	(fp_line
 		(start 0.15 1.39)
@@ -388,7 +368,7 @@
 		(remove_unused_layers no)
 		(uuid "9bff696e-f4e2-4d30-9078-7d0e4fe03cce")
 	)
-	(model "C:/Users/Bunnyspa/Documents/GitHub/Corne/kicad-library/MJTP1243.stp"
+	(model "${KIPRJMOD}/../kicad-library/MJTP1243.stp"
 		(offset
 			(xyz 3.25 0 1.75)
 		)
