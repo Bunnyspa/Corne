@@ -6,6 +6,7 @@ Custom pcb (firmware soon) of [Corne](https://github.com/foostan/crkbd) V3 keybo
 - MX, Choc V1, and Choc V2 switch support
 - Wired and wireless support
 - Reversible PCB (using jumper pads)
+- Through-hole and SMD diode support
 
 ### Wired
 - USB-C as keyboard link (instead of TRRS)
