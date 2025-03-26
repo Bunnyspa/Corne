@@ -19590,7 +19590,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "07341f6f-f32f-4094-a64c-5e34cc557ed8")
 	)
 	(gr_line
@@ -19600,7 +19600,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "205667f1-22ed-40e5-b23a-a07ddec96f57")
 	)
 	(gr_line
@@ -19610,7 +19610,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "33f4994c-4683-48c7-8e00-2d47f71a3c9e")
 	)
 	(gr_line
@@ -19620,7 +19620,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "3969d97d-9f61-449b-925b-6d5b6065c3bc")
 	)
 	(gr_line
@@ -19630,7 +19630,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "49121566-e1bd-4d72-93e0-0e66eb0dc935")
 	)
 	(gr_line
@@ -19640,7 +19640,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "5412d163-9eac-4832-af39-fc2e1c43543f")
 	)
 	(gr_line
@@ -19650,7 +19650,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "55d19c4b-509e-407e-8199-b2a47a7a5bfb")
 	)
 	(gr_line
@@ -19660,7 +19660,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "59213f6c-3f7d-45bc-ba8c-b79ea0c28539")
 	)
 	(gr_line
@@ -19670,7 +19670,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "5e15a21f-6402-41f9-a648-fb413142a8a2")
 	)
 	(gr_line
@@ -19680,7 +19680,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "6ba08c5a-5437-4dbf-9cee-33dfe95cf4ae")
 	)
 	(gr_line
@@ -19690,7 +19690,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "87cf9ec2-164f-4657-bc10-d5f10d22b82b")
 	)
 	(gr_line
@@ -19700,7 +19700,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "89cd6b4c-e1be-4d11-8f4e-c23c85506365")
 	)
 	(gr_line
@@ -19710,7 +19710,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "90c5f9c1-d9c3-42a8-a77d-0820d12b2f69")
 	)
 	(gr_line
@@ -19720,7 +19720,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "951a5ddb-d0e8-4013-a72d-7dc31280472a")
 	)
 	(gr_line
@@ -19730,7 +19730,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "cc4d98a4-4799-4835-b0d4-60d0d745626f")
 	)
 	(gr_line
@@ -19740,7 +19740,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "e4c9d51c-ebad-4158-b019-4665aa2d5574")
 	)
 	(gr_line
@@ -19750,7 +19750,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "edd66189-b532-4da8-b52c-24b048f1ca54")
 	)
 	(gr_line
@@ -19760,7 +19760,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "f581dbd0-ef6d-45d0-92b5-37f296a0179e")
 	)
 	(gr_arc
@@ -20301,72 +20301,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fc2ac51b-abde-4ef7-b30d-21e60468fe3d")
-	)
-	(dimension
-		(type aligned)
-		(layer "Eco1.User")
-		(uuid "1b2286f7-2852-434b-98da-78281461a61f")
-		(pts
-			(xy 41 41) (xy 41 97)
-		)
-		(height 9.549999)
-		(gr_text "56.0000 mm"
-			(at 30.300001 69 90)
-			(layer "Eco1.User")
-			(uuid "1b2286f7-2852-434b-98da-78281461a61f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Eco1.User")
-		(uuid "9521efb2-5068-4140-baff-773ef125cd43")
-		(pts
-			(xy 41 41) (xy 174.75 41)
-		)
-		(height -11.85)
-		(gr_text "133.7500 mm"
-			(at 107.875 28 0)
-			(layer "Eco1.User")
-			(uuid "9521efb2-5068-4140-baff-773ef125cd43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 153.5 57.815)
