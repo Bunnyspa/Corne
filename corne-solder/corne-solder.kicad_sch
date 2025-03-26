@@ -2228,7 +2228,7 @@
 		(uuid "567172bc-2f70-43d1-b694-c2c8c222c65b")
 	)
 	(no_connect
-		(at 30.48 119.38)
+		(at 53.34 29.21)
 		(uuid "b9f6cd86-68a4-4182-ad0f-3546ddabd319")
 	)
 	(no_connect
@@ -2254,16 +2254,6 @@
 			(type default)
 		)
 		(uuid "0804e494-1a7f-4ee4-8e5a-59707cf423e0")
-	)
-	(wire
-		(pts
-			(xy 48.26 121.92) (xy 40.64 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09da52c7-4ec7-4e6b-9186-343760bdd10a")
 	)
 	(wire
 		(pts
@@ -2394,6 +2384,16 @@
 			(type default)
 		)
 		(uuid "63a0aa5c-b543-40ff-b72d-4411c43fb923")
+	)
+	(wire
+		(pts
+			(xy 39.37 119.38) (xy 48.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cef657b-9eec-41f3-a8d0-fb5ed7eaec21")
 	)
 	(wire
 		(pts
@@ -2677,6 +2677,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 129.54) (xy 48.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58a6c4f-77f8-407a-9a48-aa71f82cb76f")
+	)
+	(wire
+		(pts
 			(xy 179.07 124.46) (xy 196.85 124.46)
 		)
 		(stroke
@@ -2909,6 +2919,28 @@
 			)
 		)
 	)
+	(global_label "battery"
+		(shape input)
+		(at 63.5 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "203101df-9214-4a0a-bc14-0032c292dd8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.077 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col5"
 		(shape input)
 		(at 257.81 90.17 90)
@@ -3065,7 +3097,7 @@
 	)
 	(global_label "RAW"
 		(shape input)
-		(at 30.48 124.46 180)
+		(at 53.34 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3075,7 +3107,7 @@
 		)
 		(uuid "51fff568-b6f6-400e-868c-a6a378a8b99e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.6848 124.46 0)
+			(at 46.5448 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,6 +3240,28 @@
 		(uuid "730e0f6e-c62a-464d-9504-c3e3f3c436c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.2596 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "battery"
+		(shape input)
+		(at 48.26 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7820b7d4-078a-45f9-a446-02690c503c65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.683 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,6 +3504,28 @@
 		(uuid "e8074d7d-a07d-41a2-a098-34f510dc9b44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.5 99.4447 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "battery"
+		(shape input)
+		(at 48.26 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbc4aecb-1180-47ee-bdb3-489d3eafe68d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.683 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,6 +4269,143 @@
 			(project "corne-hotswap"
 				(path "/a84e1b1a-6de0-41da-b249-d0af4d1e6311"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 53.34 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b843ba3-dc08-47fa-92bf-a6c3ded15b52")
+		(property "Reference" "J4"
+			(at 55.88 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery Wire"
+			(at 55.88 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:Battery Wire"
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "265cb506-7c71-4c96-85b0-36b4e7c0a693")
+		)
+		(pin "1"
+			(uuid "d3342b9f-307a-4e82-8b36-67a009a27372")
+		)
+		(instances
+			(project "corne-solder"
+				(path "/a84e1b1a-6de0-41da-b249-d0af4d1e6311"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2258878d-f3a6-4111-8e21-00a279158655")
+		(property "Reference" "#PWR010"
+			(at 33.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f9eb767-0ea8-446c-a11d-cc4e026c7621")
+		)
+		(instances
+			(project "corne-solder"
+				(path "/a84e1b1a-6de0-41da-b249-d0af4d1e6311"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6003,7 +6216,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 119.38 270)
+		(at 39.37 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6012,7 +6225,7 @@
 		(fields_autoplaced yes)
 		(uuid "851abcc9-b40e-448f-8775-0f974a1a8cfc")
 		(property "Reference" "#PWR02"
-			(at 41.91 119.38 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 119.3799 90)
+			(at 35.56 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 119.38 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 119.38 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +6261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 119.38 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6428,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 35.56 121.92 180)
+		(at 58.42 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6224,7 +6437,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e6ed6c8-c0dc-4f12-b1eb-c1f90f0db912")
 		(property "Reference" "PSW1"
-			(at 35.56 113.03 0)
+			(at 58.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6445,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 35.56 115.57 0)
+			(at 58.42 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6453,7 @@
 			)
 		)
 		(property "Footprint" "Project:SW_SPDT_PCM12"
-			(at 35.56 121.92 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +6462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 114.3 0)
+			(at 58.42 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6471,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 35.56 121.92 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
