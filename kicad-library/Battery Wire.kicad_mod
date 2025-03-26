@@ -68,6 +68,92 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 4.445 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7c5612b1-fdb3-4e24-8ccd-1376453a8fd1")
+	)
+	(fp_text user "+"
+		(at 3.175 -1.5875 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "11b08303-4f83-460b-a2fb-b91cedf1589d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "-"
+		(at 0 -1.5875 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "1fae410d-ad26-4026-a64c-d26e81bb5268")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "Battery"
+		(at 1.5875 1.5875 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "6a0c5fed-4d66-4df8-89b5-5a708001ba0c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "Battery"
+		(at 1.5875 1.5875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70013cad-83f4-4523-8e32-9da5b877da4c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 3.175 -1.5875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7c5a4179-b612-4f1e-a10a-50e7f681a977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 0 -1.5875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d42ae1c9-c01e-4942-8b4d-60e7ee62ff1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)

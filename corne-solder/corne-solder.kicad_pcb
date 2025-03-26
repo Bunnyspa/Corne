@@ -8010,7 +8010,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ab98b6c6-181e-4fe7-abe7-c7cd1f55c129")
+			(uuid "299c2c7a-8cde-4d1c-b46e-75aded345e35")
 			(effects
 				(font
 					(size 1 1)
@@ -8022,7 +8022,7 @@
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b8184250-f386-40f3-afc2-63d591c78ae3")
+			(uuid "cc67c9be-43b3-455b-90ef-7210f0e7d4c8")
 			(effects
 				(font
 					(size 1 1)
@@ -8035,7 +8035,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9093a4dd-222d-4f32-8e19-161e20f22d67")
+			(uuid "c6ed8be6-6654-4e20-b1e5-5a51fcc3e90b")
 			(effects
 				(font
 					(size 1 1)
@@ -8048,7 +8048,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8f7785b-7ed3-452e-88e2-e1366833820d")
+			(uuid "129bc477-8ba9-4493-a413-10de93e0d6a2")
 			(effects
 				(font
 					(size 1 1)
@@ -8061,7 +8061,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2f0b805-3696-4826-864d-c60cd2e77904")
+			(uuid "1ddad279-d18b-4bf8-8afc-417825ed69a8")
 			(effects
 				(font
 					(size 1 1)
@@ -8074,11 +8074,97 @@
 		(sheetname "Root")
 		(sheetfile "corne-solder.kicad_sch")
 		(attr through_hole)
+		(fp_rect
+			(start -1.27 -1.27)
+			(end 4.445 1.27)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "c2d1684d-d7b7-4a58-ad46-a0d7328523e8")
+		)
+		(fp_text user "+"
+			(at 3.175 -1.5875 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "62e70fef-bdd8-4501-a5f6-dab71410023a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 0 -1.5875 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "ca1ea8d4-a44e-4880-92ea-78f30deb60d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "Battery"
+			(at 1.5875 1.5875 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "f0a88c43-ebb7-47e6-918b-b4d682b062b5")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 0 -1.5875 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1c1f5019-9926-42b1-afda-b8f046846d50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at 3.175 -1.5875 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "39b5a04e-d643-4fda-a3f0-bb3982cd7017")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "Battery"
+			(at 1.5875 1.5875 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ea7f91ed-e38d-483c-9ab4-cb17c04ac21c")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.1)
+				)
+			)
+		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2b9828f6-5fdb-4eb3-a619-a268fcec3cd0")
+			(uuid "f8902509-08b0-4bbd-8d19-1d2136225cae")
 			(effects
 				(font
 					(size 1 1)
@@ -8095,7 +8181,7 @@
 			(net 27 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "804d2f32-f135-40c9-a4dc-fb9237a5fdd9")
+			(uuid "47c05dcf-7b26-425c-a9bf-fc52ec05cbcc")
 		)
 		(pad "2" thru_hole circle
 			(at 3.175 0 90)
@@ -8106,7 +8192,7 @@
 			(net 26 "battery")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "f4980b5d-82f2-45f7-aaaa-148f1d8ccfdf")
+			(uuid "d958e782-067c-4fd7-b5ab-2e57995ef4f7")
 		)
 	)
 	(footprint "Project:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
