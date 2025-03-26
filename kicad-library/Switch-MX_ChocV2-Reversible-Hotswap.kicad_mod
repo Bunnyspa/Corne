@@ -1484,18 +1484,18 @@
 		(uuid "0669ef9d-d3a4-4219-916e-dff9655bfd73")
 	)
 	(pad "1" smd roundrect
-		(at -8.245 3.75)
+		(at 3.245 5.95)
 		(size 2.65 2.6)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(roundrect_rratio 0.1)
-		(uuid "12cd7033-2d07-47ef-8288-5e9a22bdd734")
+		(uuid "1f12ea4e-8f73-4ebf-bff6-d03b3fd4660d")
 	)
 	(pad "1" smd roundrect
-		(at -7.36 -2.54)
+		(at 6.09 -5.08)
 		(size 2.55 2.5)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(roundrect_rratio 0.1)
-		(uuid "8c5100e5-bd92-4003-9b2e-6edfe72162a6")
+		(uuid "82b97141-882d-4734-932a-0cbf7dccfcf7")
 	)
 	(pad "1" smd roundrect
 		(at 7.36 -2.54)
@@ -1512,6 +1512,20 @@
 		(uuid "4420c879-921d-4c22-b200-ca586c9324d6")
 	)
 	(pad "2" smd roundrect
+		(at -8.245 3.75)
+		(size 2.65 2.6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "12cd7033-2d07-47ef-8288-5e9a22bdd734")
+	)
+	(pad "2" smd roundrect
+		(at -7.36 -2.54)
+		(size 2.55 2.5)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "8c5100e5-bd92-4003-9b2e-6edfe72162a6")
+	)
+	(pad "2" smd roundrect
 		(at -6.09 -5.08)
 		(size 2.55 2.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -1524,20 +1538,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "c7c49f0d-3037-4b28-9eb2-afe49b827785")
-	)
-	(pad "2" smd roundrect
-		(at 3.245 5.95)
-		(size 2.65 2.6)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "1f12ea4e-8f73-4ebf-bff6-d03b3fd4660d")
-	)
-	(pad "2" smd roundrect
-		(at 6.09 -5.08)
-		(size 2.55 2.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "82b97141-882d-4734-932a-0cbf7dccfcf7")
 	)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG151101S11_MX.step"
 		(offset
