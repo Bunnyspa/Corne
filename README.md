@@ -21,4 +21,6 @@ The bottom half MCU board pinouts do not support reverse configuration (hence no
 - Power switch at the north side
 
 ## Preview
-![Solder version preview](https://github.com/Bunnyspa/Corne/blob/main/resources/3d-corne-solder.jpg?raw=true)
+| Solder  | Hotswap |
+| - | - |
+| ![Solder version front preview](https://github.com/Bunnyspa/Corne/blob/main/resources/corne-solder-3d-front.jpg?raw=true) ![Solder version back preview](https://github.com/Bunnyspa/Corne/blob/main/resources/corne-solder-3d-back.jpg?raw=true) | ![Hotswap version front preview](https://github.com/Bunnyspa/Corne/blob/main/resources/corne-hotswap-3d-front.jpg?raw=true) ![Hotswap version back preview](https://github.com/Bunnyspa/Corne/blob/main/resources/corne-hotswap-3d-back.jpg?raw=true) |
