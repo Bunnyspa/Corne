@@ -199,128 +199,37 @@
 		(layer "F.Fab")
 		(uuid "b8fb7dd3-2978-4b90-97ff-ede6b408e7ba")
 	)
-	(fp_text user "GND"
-		(at 5.3975 -8.89 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "179eb286-4f48-452a-86aa-0a47a06636bf")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left mirror)
-		)
-	)
-	(fp_text user "PLACE MCU FACE DOWN"
-		(at 1.27 0 -90)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "27311dd0-3778-4a61-b965-e975164701cf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
 	(fp_text user "VCC"
-		(at -5.3975 -6.35 0)
+		(at -4.445 -6.35 -90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "3ef88310-0aa0-44a1-bdfd-730829d4d4ac")
+		(uuid "0181ccce-57a2-4f15-b06a-3cae2423d8d9")
 		(effects
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify right mirror)
-		)
-	)
-	(fp_text user "RX1"
-		(at 5.3975 -11.43 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "68df8b5f-15f4-46f8-b34f-e887c3062515")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left mirror)
+			(justify top mirror)
 		)
 	)
 	(fp_text user "GND"
-		(at -5.3975 -11.43 0)
+		(at 4.445 -6.35 -90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "72ec0f22-ff07-4b16-a00b-0a7ea6095e6c")
+		(uuid "120c79e9-5b80-4315-89be-78a5abbbf3fa")
 		(effects
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify right mirror)
-		)
-	)
-	(fp_text user "RST"
-		(at -5.3975 -8.89 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "740a7d76-40e5-42bf-b230-c9520095ef21")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify right mirror)
-		)
-	)
-	(fp_text user "TX0"
-		(at 5.3975 -13.97 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "96125191-aeb9-4fcc-a87d-8cd67dca98f9")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left mirror)
-		)
-	)
-	(fp_text user "GND"
-		(at 5.3975 -6.35 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "b88db371-4dc0-4083-b4d4-89ec43ef2360")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left mirror)
-		)
-	)
-	(fp_text user "RAW"
-		(at -5.3975 -13.97 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "c2237f8e-29a0-4e73-a632-6a78b66fd322")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify right mirror)
+			(justify bottom mirror)
 		)
 	)
 	(fp_text user "JUMP OPPOSITE SIDE"
-		(at -1.27 0 -90)
+		(at 0 0 -90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "fd4552c5-76df-486c-bae1-c846cc8dc805")
+		(uuid "1274e83a-0162-4ae3-b02e-829249d2c817")
 		(effects
 			(font
 				(size 1 1)
@@ -329,8 +238,86 @@
 			(justify mirror)
 		)
 	)
+	(fp_text user "RST"
+		(at -4.445 -8.89 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "1c02c0ab-0945-4ea8-9cc4-7cc2104ba1c7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify top mirror)
+		)
+	)
 	(fp_text user "PLACE MCU FACE DOWN"
-		(at -1.27 0 90)
+		(at 1.905 0 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "77e974e2-9343-47dd-bdde-0c01eea98b3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "RAW"
+		(at -4.445 -13.97 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "bd3964e7-8c45-40db-9372-d6a2087e34f8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at -4.445 -11.43 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "ef9219e4-e982-49f8-80a2-c6cfa38446e5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "LABELS MARK JUMP PADS"
+		(at -1.905 0 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f4d3c8d8-8adf-49d4-9d8a-3fbbab308aff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at 4.445 -8.89 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "fe126eb5-0475-4c44-9770-8ee1919d907d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "PLACE MCU FACE DOWN"
+		(at -1.905 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1fb746df-75c1-4e4c-b10c-3b326d3781d9")
@@ -342,7 +329,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -5.3975 -6.35 0)
+		(at -4.445 -6.35 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "22357777-0fb6-4422-8e20-3e1dba503e8f")
@@ -351,11 +338,11 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left)
+			(justify bottom)
 		)
 	)
 	(fp_text user "JUMP OPPOSITE SIDE"
-		(at 1.27 0 90)
+		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5fa5e3db-739c-4873-bb7b-994d198dc99c")
@@ -367,7 +354,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at 5.3975 -6.35 0)
+		(at 4.445 -6.35 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "686baecc-5044-46da-b830-d4084502920f")
@@ -376,11 +363,11 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify right)
+			(justify top)
 		)
 	)
 	(fp_text user "GND"
-		(at -5.3975 -8.89 0)
+		(at -4.445 -8.89 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "97d08947-f384-4f98-b39b-7e6b532430bb")
@@ -389,11 +376,11 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left)
+			(justify bottom)
 		)
 	)
 	(fp_text user "RST"
-		(at 5.3975 -8.89 0)
+		(at 4.445 -8.89 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ab8ba216-4ac3-49c7-ac3f-1ed45f46563a")
@@ -402,24 +389,23 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify right)
+			(justify top)
 		)
 	)
-	(fp_text user "TX0"
-		(at -5.3975 -13.97 0)
+	(fp_text user "LABELS MARK JUMP PADS"
+		(at 1.905 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "afe45548-06b3-432b-9479-109ae14812bc")
+		(uuid "aec07000-298e-4594-b346-3dfae99d484e")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "GND"
-		(at 5.3975 -11.43 0)
+		(at 4.445 -11.43 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "dedbaf3d-10c7-4b1a-8ea9-a7abe13bc8ec")
@@ -428,24 +414,11 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify right)
-		)
-	)
-	(fp_text user "RX1"
-		(at -5.3975 -11.43 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "f01fd981-d0fb-45f0-872d-c935704657d4")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left)
+			(justify top)
 		)
 	)
 	(fp_text user "RAW"
-		(at 5.3975 -13.97 0)
+		(at 4.445 -13.97 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fc8c8a96-65e2-4059-a44f-753dcb938b6d")
@@ -454,7 +427,7 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify right)
+			(justify top)
 		)
 	)
 	(fp_text user "${REFERENCE}"
