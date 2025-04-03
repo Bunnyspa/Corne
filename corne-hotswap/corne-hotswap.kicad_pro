@@ -53,9 +53,9 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "starved_thermal|172150000|85045000|bd7feae8-6537-4816-8d86-4af134da29ff|2435d90e-6a1c-46e5-966f-fe45642c7a2d|F.Cu",
-        "starved_thermal|172150000|86175000|bd7feae8-6537-4816-8d86-4af134da29ff|0215ae8e-c649-459b-9d58-fc31c3612011|B.Cu",
-        "starved_thermal|172150000|86175000|bd7feae8-6537-4816-8d86-4af134da29ff|0215ae8e-c649-459b-9d58-fc31c3612011|F.Cu"
+        "starved_thermal|172150000|85045000|bd7feae8-6537-4816-8d86-4af134da29ff|284accef-48ac-4ba8-b664-d6b32b30756c|F.Cu",
+        "starved_thermal|172150000|86175000|bd7feae8-6537-4816-8d86-4af134da29ff|880a99c8-b8e2-42d8-b2ed-94ab7ab58e02|B.Cu",
+        "starved_thermal|172150000|86175000|bd7feae8-6537-4816-8d86-4af134da29ff|880a99c8-b8e2-42d8-b2ed-94ab7ab58e02|F.Cu"
       ],
       "meta": {
         "version": 2
