@@ -453,28 +453,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "81bf7fb2-5eb8-4e49-874c-ba9c5a3ae2d6")
+		(uuid "6a76721d-efcc-45cd-ab90-a9a7984cdc97")
 	)
 	(pad "1" smd custom
 		(at 5.715 -13.97 180)
@@ -487,28 +487,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "48900958-6afe-4237-85eb-59befb08e88e")
+		(uuid "0353769d-1cda-4cd2-9e8e-90d59b53d3e7")
 	)
 	(pad "2" smd custom
 		(at -5.715 -11.43 180)
@@ -521,25 +521,25 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
 		(uuid "96d8fbdc-3dd4-44b4-8d30-b7e28a63cd56")
@@ -555,28 +555,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "95e72989-39a6-49fb-86e5-631cc305f645")
+		(uuid "b2d6f4b6-9a99-4544-ac6f-b1f799b58c16")
 	)
 	(pad "3" smd custom
 		(at -5.715 -8.89 180)
@@ -618,7 +618,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "67b96eaf-e396-475f-93e2-8d6d1f4a2fad")
+		(uuid "57e4fc4f-8a84-4369-bed6-80aeef7cd0be")
 	)
 	(pad "4" smd custom
 		(at -5.715 -6.35 180)
@@ -660,7 +660,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "9add25e4-baf4-4494-9343-b032ef5abfa8")
+		(uuid "b08939d0-4f83-4f21-8393-b78415e703cf")
 	)
 	(pad "5" smd custom
 		(at -5.715 -3.81 180)
@@ -673,28 +673,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "ede342a9-9a59-4144-ac1c-8d55f35acf38")
+		(uuid "76d4c772-feaa-43c8-b034-7d7e8248dc7a")
 	)
 	(pad "5" smd custom
 		(at 5.715 -3.81 180)
@@ -707,28 +707,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "72714d4a-7d45-4663-9653-09ec4b9d2788")
+		(uuid "1fccaf98-cf42-4f10-81b5-83056a86c81d")
 	)
 	(pad "6" smd custom
 		(at -5.715 -1.27 180)
@@ -741,28 +741,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "9a9ec45f-0467-4fd5-a8a0-8befa3865d66")
+		(uuid "6adc1eb5-311b-49fc-a4d3-63602744eae0")
 	)
 	(pad "6" smd custom
 		(at 5.715 -1.27 180)
@@ -775,28 +775,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "2a015414-b5a8-447f-89c5-87a4b0aed4cd")
+		(uuid "8d5df3b5-9be9-440f-aa97-d16cfaae3dd4")
 	)
 	(pad "7" smd custom
 		(at -5.715 1.27 180)
@@ -809,28 +809,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "90a54937-408c-433c-a1e3-3affd3ce109c")
+		(uuid "375031e0-b3d9-44f2-826a-2c4f7ebf53c8")
 	)
 	(pad "7" smd custom
 		(at 5.715 1.27 180)
@@ -843,28 +843,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "2471ad56-4999-4431-be0f-c1d2881a87bd")
+		(uuid "7f9c1695-57f4-4c02-b2b3-6a24656d2316")
 	)
 	(pad "8" smd custom
 		(at -5.715 3.81 180)
@@ -877,28 +877,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "fedcd8b8-e0bb-452c-b439-390d0c90ed76")
+		(uuid "cd809745-b69e-46f1-8e2f-5a23baf3204a")
 	)
 	(pad "8" smd custom
 		(at 5.715 3.81 180)
@@ -911,28 +911,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "a8973bb9-b2de-489a-b0d2-07f6fb5d88b3")
+		(uuid "e897a817-f8a1-488c-aca3-2fd15a759a73")
 	)
 	(pad "9" smd custom
 		(at -5.715 6.35 180)
@@ -945,28 +945,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "a4e6c0c8-5363-40c6-b219-c7e7ddd0fee1")
+		(uuid "7d837e99-f96d-4781-a30a-d452bea70547")
 	)
 	(pad "9" smd custom
 		(at 5.715 6.35 180)
@@ -979,28 +979,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "c5dad780-d221-499d-9c01-89ea822aa750")
+		(uuid "1d6a540c-02ef-494b-bb5b-d8c8456c9d61")
 	)
 	(pad "10" smd custom
 		(at -5.715 8.89 180)
@@ -1013,28 +1013,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "7e893d5b-89ea-4189-ad3f-205a1481a6b1")
+		(uuid "7100c6ca-f67f-4064-8327-3c7c0ded70f3")
 	)
 	(pad "10" smd custom
 		(at 5.715 8.89 180)
@@ -1047,28 +1047,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "8bec1bfe-2f01-45e5-be45-44d09224943d")
+		(uuid "b8550c7a-ebcc-4d94-b895-fe5dfe77b9a0")
 	)
 	(pad "11" thru_hole circle
 		(at -7.62 11.43 270)
@@ -1097,28 +1097,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "6550b455-81b9-46ff-82d5-081adeab60cf")
+		(uuid "78c98897-73b6-42c3-a231-4f15b118ccbe")
 	)
 	(pad "13" smd custom
 		(at 5.715 -13.97)
@@ -1131,28 +1131,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "1df54846-21fb-472b-838f-bd452adb3031")
+		(uuid "b93ca367-e33d-46d8-8097-4c052a755295")
 	)
 	(pad "14" smd custom
 		(at -5.715 -11.43)
@@ -1173,7 +1173,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "c65ff904-811f-4518-9476-681403c20e42")
+		(uuid "077d7355-554d-4e92-a193-d9f24db7449a")
 	)
 	(pad "14" smd custom
 		(at 5.715 -11.43)
@@ -1207,28 +1207,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "35826b07-9119-4bc0-a5a2-2aa5a497c29e")
+		(uuid "11c47e90-b8ea-45fc-b67f-186b313788dd")
 	)
 	(pad "15" smd custom
 		(at 5.715 -8.89)
@@ -1241,28 +1241,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "b81c0ff4-83c4-4083-9fd7-5537d97334d3")
+		(uuid "f0ee8271-de71-41da-8927-e034e6ba2283")
 	)
 	(pad "16" smd custom
 		(at -5.715 -6.35)
@@ -1275,28 +1275,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "e658fee4-ebb3-4207-91b7-fd4f69e5f676")
+		(uuid "f03a5222-1136-41ad-8059-242c6d948bae")
 	)
 	(pad "16" smd custom
 		(at 5.715 -6.35)
@@ -1309,28 +1309,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "468442ad-3497-4abb-8dbb-e2546ea0fdaf")
+		(uuid "73871eae-a2b8-4d32-859c-3234b869e0b1")
 	)
 	(pad "17" smd custom
 		(at -5.715 -3.81)
@@ -1343,28 +1343,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "0ab1a9e6-1772-4519-9a08-a11a89202cc2")
+		(uuid "97d646a9-f564-4f48-b38d-ca444461e7dc")
 	)
 	(pad "17" smd custom
 		(at 5.715 -3.81)
@@ -1377,28 +1377,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "2f540399-bcbe-4803-9679-c1adeb8a5e35")
+		(uuid "20e270ce-ac19-4b75-91f0-f1454c42d2b7")
 	)
 	(pad "18" smd custom
 		(at -5.715 -1.27)
@@ -1411,28 +1411,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "58fe6bb2-68ef-4ceb-bdbc-deed919bf981")
+		(uuid "72db8456-bdd7-45ad-af78-01f1d4adaa07")
 	)
 	(pad "18" smd custom
 		(at 5.715 -1.27)
@@ -1445,28 +1445,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "6e7b0ba4-f72f-4f68-9827-c817a88894b5")
+		(uuid "67c0550c-a093-4f2d-8a96-2e61105da05a")
 	)
 	(pad "19" smd custom
 		(at -5.715 1.27)
@@ -1479,28 +1479,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "19aaa80d-fad6-4a2c-ab50-4cd833de8ff2")
+		(uuid "3e38fe6a-e693-40cd-a138-a8154ac13695")
 	)
 	(pad "19" smd custom
 		(at 5.715 1.27)
@@ -1513,28 +1513,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "49cabf59-260e-42d3-a499-9bc6297b776b")
+		(uuid "028d3505-981c-4114-a664-a8eb9c23df76")
 	)
 	(pad "20" smd custom
 		(at -5.715 3.81)
@@ -1547,28 +1547,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "3f7d248d-b04e-4e99-a71e-d5637d66899c")
+		(uuid "c67cdc7d-93f9-4cdc-89fa-7054fef6a8e8")
 	)
 	(pad "20" smd custom
 		(at 5.715 3.81)
@@ -1581,28 +1581,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "d2b9da05-7f13-4a63-bac0-ba6f89eb5fb6")
+		(uuid "26ed9bd6-fe14-45a3-825b-b206944eeb7d")
 	)
 	(pad "21" smd custom
 		(at -5.715 6.35)
@@ -1615,28 +1615,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "6090edcc-6163-486a-bbbf-1241a5fe0d1c")
+		(uuid "e2d934ea-b262-4691-aa27-229f03a8dacd")
 	)
 	(pad "21" smd custom
 		(at 5.715 6.35)
@@ -1649,28 +1649,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "f7311eb7-c0bf-4c14-99f6-d19b8d44efc5")
+		(uuid "9fc604a8-735f-491f-b230-9986d8299ca2")
 	)
 	(pad "22" smd custom
 		(at -5.715 8.89)
@@ -1683,28 +1683,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center -0.255 -0.5)
-				(end -0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy -0.505 0) (xy -1.105 0.9) (xy -0.255 0.9) (xy -0.255 0.5) (xy 0.145 0.5) (xy 0.145 -0.5) (xy -0.255 -0.5)
-					(xy -0.255 -0.9) (xy -1.105 -0.9)
+					(xy -0.505 0) (xy -1.105 0.9) (xy -0.305 0.9) (xy -0.005 0.75) (xy 0.145 0.45) (xy 0.145 -0.45)
+					(xy -0.005 -0.75) (xy -0.305 -0.9) (xy -1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center -0.255 0.5)
-				(end -0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.305 -0.8)
+				(mid -0.057513 -0.697487)
+				(end 0.045 -0.45)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.045 0.45)
+				(mid -0.057513 0.697487)
+				(end -0.305 0.8)
+				(width 0.2)
 			)
 		)
-		(uuid "6d2102f4-d71b-4d1e-8515-f7a4b1203255")
+		(uuid "5af946b9-5ffb-47b4-8828-85cc4e94a4bc")
 	)
 	(pad "22" smd custom
 		(at 5.715 8.89)
@@ -1717,28 +1717,28 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_circle
-				(center 0.255 -0.5)
-				(end 0.255 -0.1)
-				(width 0)
-				(fill yes)
-			)
 			(gr_poly
 				(pts
-					(xy 0.505 0) (xy 1.105 0.9) (xy 0.255 0.9) (xy 0.255 0.5) (xy -0.145 0.5) (xy -0.145 -0.5) (xy 0.255 -0.5)
-					(xy 0.255 -0.9) (xy 1.105 -0.9)
+					(xy 0.505 0) (xy 1.105 0.9) (xy 0.305 0.9) (xy 0.005 0.75) (xy -0.145 0.45) (xy -0.145 -0.45) (xy 0.005 -0.75)
+					(xy 0.305 -0.9) (xy 1.105 -0.9)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_circle
-				(center 0.255 0.5)
-				(end 0.255 0.9)
-				(width 0)
-				(fill yes)
+			(gr_arc
+				(start -0.045 -0.45)
+				(mid 0.057513 -0.697487)
+				(end 0.305 -0.8)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.305 0.8)
+				(mid 0.057513 0.697487)
+				(end -0.045 0.45)
+				(width 0.2)
 			)
 		)
-		(uuid "2f2b6e52-b4e9-439f-a19b-b45617d901ff")
+		(uuid "73a9b8c6-48da-42fa-8423-3b42ee49543d")
 	)
 	(pad "23" thru_hole circle
 		(at 7.62 11.43 270)
