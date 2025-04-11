@@ -390,7 +390,7 @@
 		)
 	)
 	(pad "1" smd custom
-		(at 0 -1.5 90)
+		(at 0 -1.3 90)
 		(size 0.4 0.4)
 		(layers "B.Cu" "B.Mask")
 		(zone_connect 2)
@@ -402,16 +402,16 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.2 0) (xy -0.6 0.6) (xy 0.2 0.6) (xy 0.2 -0.6) (xy -0.6 -0.6)
+					(xy -0.2 0) (xy -0.6 0.6) (xy 0.3 0.6) (xy 0.3 -0.6) (xy -0.6 -0.6)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "f31a0358-53a2-4cd0-a1fe-3fd2fa656ece")
+		(uuid "d4a8b5a5-4f03-46e3-b4b2-aea11bec1a2c")
 	)
 	(pad "1" smd custom
-		(at 2 -1.5 270)
+		(at 2 -1.3 270)
 		(size 0.4 0.4)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
@@ -423,7 +423,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.2 0) (xy 0.6 0.6) (xy -0.2 0.6) (xy -0.2 -0.6) (xy 0.6 -0.6)
+					(xy 0.2 0) (xy 0.6 0.6) (xy -0.3 0.6) (xy -0.3 -0.6) (xy 0.6 -0.6)
 				)
 				(width 0)
 				(fill yes)
@@ -432,8 +432,8 @@
 		(uuid "f2586411-f6e7-4be8-a3d0-937cb9c034d8")
 	)
 	(pad "2" smd custom
-		(at 0 -1.5 270)
-		(size 0.4 0.4)
+		(at 0 -1.3 270)
+		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
@@ -444,30 +444,23 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.2 0) (xy 0.6 0.6) (xy 0.1 0.6) (xy 0 0.4) (xy -0.2 0.3) (xy -0.2 -0.3) (xy 0 -0.4) (xy 0.1 -0.6)
-					(xy 0.6 -0.6)
+					(xy 0.2 0) (xy 0.6 0.6) (xy 0.3 0.6) (xy -0.3 0) (xy 0.3 -0.6) (xy 0.6 -0.6)
 				)
 				(width 0)
 				(fill yes)
 			)
 			(gr_arc
-				(start 0.1 0.5)
-				(mid -0.041421 0.441421)
-				(end -0.1 0.3)
-				(width 0.2)
-			)
-			(gr_arc
-				(start -0.1 -0.3)
-				(mid -0.041421 -0.441421)
-				(end 0.1 -0.5)
+				(start 0.3 0.5)
+				(mid -0.2 0)
+				(end 0.3 -0.5)
 				(width 0.2)
 			)
 		)
 		(uuid "3d30f9ae-acae-4cb3-9de9-10be04a0f81f")
 	)
 	(pad "2" smd custom
-		(at 2 -1.5 90)
-		(size 0.4 0.4)
+		(at 2 -1.3 90)
+		(size 0.3 0.3)
 		(layers "B.Cu" "B.Mask")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
@@ -476,28 +469,21 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_arc
+				(start -0.3 -0.5)
+				(mid 0.2 0)
+				(end -0.3 0.5)
+				(width 0.2)
+			)
 			(gr_poly
 				(pts
-					(xy -0.2 0) (xy -0.6 0.6) (xy -0.1 0.6) (xy 0 0.4) (xy 0.2 0.3) (xy 0.2 -0.3) (xy 0 -0.4) (xy -0.1 -0.6)
-					(xy -0.6 -0.6)
+					(xy -0.2 0) (xy -0.6 0.6) (xy -0.3 0.6) (xy 0.3 0) (xy -0.3 -0.6) (xy -0.6 -0.6)
 				)
 				(width 0)
 				(fill yes)
 			)
-			(gr_arc
-				(start 0.1 0.3)
-				(mid 0.041421 0.441421)
-				(end -0.1 0.5)
-				(width 0.2)
-			)
-			(gr_arc
-				(start -0.1 -0.5)
-				(mid 0.041421 -0.441421)
-				(end 0.1 -0.3)
-				(width 0.2)
-			)
 		)
-		(uuid "ccf1d230-1176-4e3c-89b3-55f34baa2215")
+		(uuid "d0a7ff88-c8f6-4dba-9787-2b27f90064a1")
 	)
 	(pad "J1" thru_hole custom
 		(at 0 0)
@@ -513,7 +499,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.6 -0.6) (xy 0.6 0.275) (xy -0.6 0.275) (xy -0.6 -0.6) (xy 0 -1)
+					(xy 0.6 -0.4) (xy 0.6 0.275) (xy -0.6 0.275) (xy -0.6 -0.4) (xy 0 -0.8)
 				)
 				(width 0)
 				(fill yes)
@@ -539,16 +525,16 @@
 			(anchor circle)
 		)
 		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.6) (xy 0.6 0.275) (xy -0.6 0.275) (xy -0.6 -0.6) (xy 0 -1)
-				)
-				(width 0)
-				(fill yes)
-			)
 			(gr_circle
 				(center 0 0.275)
 				(end -0.6 0.275)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.6 -0.4) (xy 0.6 0.275) (xy -0.6 0.275) (xy -0.6 -0.4) (xy 0 -0.8)
+				)
 				(width 0)
 				(fill yes)
 			)
