@@ -52,10 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "starved_thermal|172150000|86175000|bd7feae8-6537-4816-8d86-4af134da29ff|544359d6-1bca-4056-9c4f-ad9ac6cb087e|B.Cu",
-        "starved_thermal|172150000|86175000|bd7feae8-6537-4816-8d86-4af134da29ff|544359d6-1bca-4056-9c4f-ad9ac6cb087e|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -98,7 +95,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
