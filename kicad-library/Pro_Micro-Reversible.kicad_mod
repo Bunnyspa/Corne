@@ -238,11 +238,11 @@
 			(justify top mirror)
 		)
 	)
-	(fp_text user "PLACE MCU FACE DOWN"
-		(at 1.27 0 -90)
+	(fp_text user "JUMP WHILE SOLDERING"
+		(at -1.27 0 -90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "b3e52daa-577e-41df-9e08-f087a81f7f10")
+		(uuid "722556dc-4fd7-440f-a410-9af52c559d5d")
 		(effects
 			(font
 				(size 1 1)
@@ -264,6 +264,19 @@
 			(justify top mirror)
 		)
 	)
+	(fp_text user "PLACE MCU FACE DOWN"
+		(at 1.27 0 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "eec3dfa6-dced-4720-b317-858bed9f5310")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "GND"
 		(at -4.445 -11.43 -90)
 		(unlocked yes)
@@ -275,19 +288,6 @@
 				(thickness 0.1)
 			)
 			(justify top mirror)
-		)
-	)
-	(fp_text user "SOLDER BACKSIDE JUMPERS"
-		(at -1.27 0 -90)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "fc65a467-2d38-4e5b-9a3e-6dab574f809c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
 		)
 	)
 	(fp_text user "GND"
@@ -328,7 +328,7 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "SOLDER BACKSIDE JUMPERS"
+	(fp_text user "JUMP WHILE SOLDERING"
 		(at 1.27 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
