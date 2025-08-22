@@ -49,14 +49,15 @@ For nice!view, you must connect the upper jumper pad (right side in the picture)
 For 4-pin I2C OLEDs, you must connect the lower jumper pad (left side in the picture).
 
 ## IRL Testing
-This PCB worked in my testing with the wireless configuration (per side):
+The PCB has been tested with these parts (per side):
 - Solder PCB from JLCPCB
 - nice!nano
 - nice!view 3rd-party alternative (Taobao)
-- 750mAh battery
+- 750mAh battery (to the plain through-hole pads)
 - SPDT switch for power switch
 - Tactile switch for reset switch
 - Choc V2 switches
+- 1N4148W SMD diodes
 - Default ZMK Corne + nice!view firmware
 
 I also tried Pro Micro + OLED combo with QMK, and they worked fine. (I did not fully build the Corne for this one. Just the MCU and the display.)
