@@ -29,7 +29,7 @@ I have **NOT** tested the PH 2.0mm battery connector yet. Let me know if it work
 ### Keyboard link
 - The 6-pin version is used for easier hand soldering
 - TRRS is not used due to the lack of symmetry
-- 
+
 ### OLED pinout location is slightly to the left
 - To counter the OLEDs having the display area slightly to the right
 - To overlap nice!view pinout location
@@ -38,7 +38,7 @@ I have **NOT** tested the PH 2.0mm battery connector yet. Let me know if it work
 
 ![Solder example](https://github.com/Bunnyspa/Corne/blob/main/resources/solder_example.jpg?raw=true)
 ![Above image in KiCad](https://github.com/Bunnyspa/Corne/blob/main/resources/solder_example_kicad.jpg?raw=true)
-The images above shows the backside.
+The images above show the backside.
 
 To support the PCB reversibility, jumper pads are added (pretty much everywhere). The through-hole solder pads themselves are not connected to anything, so you need to connect jumpers together where you solder the pads.
 
